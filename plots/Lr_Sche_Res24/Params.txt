@@ -1,0 +1,17 @@
+# Find the best learning scheduler
+Lr Scheduler:	Step:		Decay 10 % each 20 epochs 
+		Exponential:	Decay 90 % each epoch
+		CosineRestart:	Period 80
+		ReduceLR:	Dynmic Decay with decay rate:0.5
+
+Models:		ResNet24
+Optimizers:	SGDN
+Epochs:		50
+Momentum:	0.9
+Weight Decay:   0.001
+Loss Function:  Cross Entropy
+Train Batch:	128
+Test Batch:	128
+Batch Norm:	√
+Mixup:		×
+Activation：	ReLU

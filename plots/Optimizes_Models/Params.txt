@@ -1,0 +1,14 @@
+# Test Different Optimizers in Different Models
+Models:		ResNet10, ResNet16, ResNet24, ResNet48
+Optimizers:	SGD, SGDN, Adagrad, Adadelta
+
+Epochs:		50
+Momentum:	0.9
+Weight Decay:   0.001
+Loss Function:  Cross Entropy
+Train Batch:	128
+Test Batch:	128
+Batch Norm:	√
+Mixup:		×
+Activation：	ReLU
+Lr Scheduler:	Exponential with Gamma 0.9

@@ -1,0 +1,20 @@
+# Test Different Block Structure
+Type_a:		Conv-BN-ReLU-Conv-BN-Add-ReLU
+Type_b:		Conv-BN-ReLU-Conv-Add-BN-ReLU
+Type_c:		Conv-BN-ReLU-Conv-BN-ReLU-Add
+Type_d:		ReLU-Conv-BN-ReLU-Conv-BN-Add
+Type_e:		BN-ReLU-Conv-BN-ReLU-Conv-Add
+
+Models:		ResNet24
+Optimizers:	SGDN
+Activation：	ReLU
+Epochs:		50
+Momentum:	0.9
+Weight Decay:   0.001
+Loss Function:  Cross Entropy
+Train Batch:	128
+Test Batch:	128
+Batch Norm:	√
+Mixup:		×
+Initial lr:	0.1
+Lr Scheduler:	Exponential with Gamma 0.9
