@@ -4,8 +4,8 @@ A project aimed at improving ResNet accuracy on CIFAR10 dataset while using less
 
 ## **Documentation**
 
-1. Project report can be found at ' docs/NNDL_PJ2.pdf '
-2. Training process recorded in ' plots' 
+1. Project report can be found at ([docs/NNDL_PJ2.pdf](https://github.com/LH-WA/ResNet/blob/master/docs/NNDL_PJ2.pdf))
+2. Training process recorded in ' plots ' 
 3. Model weight saved in ' checkpoints '
 4. Tensorboard recorded in ' logs '
 
